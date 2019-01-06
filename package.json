@@ -1,0 +1,15 @@
+{
+  "name": "thebrauxelcode",
+  "version": "1.0.0",
+  "description": "Aakash Bhatia's personal website & portfolio",
+  "main": "index.js",
+  "repository": "git@github.com:Milo1184/thebrauxelcode.git",
+  "author": "Aakash Bhatia <akash.bhatia1184@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0"
+  }
+}
