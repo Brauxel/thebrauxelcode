@@ -6,6 +6,12 @@
   "repository": "git@github.com:Milo1184/thebrauxelcode.git",
   "author": "Aakash Bhatia <akash.bhatia1184@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf ./dist/*",
+    "dev": "webpack --mode=development",
+    "prod": "webpack --mode=production",
+    "serve": "webpack-dev-server --mode=development"
+  },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
@@ -22,9 +28,11 @@
     "uglifyjs-webpack-plugin": "^2.1.1",
     "url-loader": "^1.1.2",
     "webpack": "^4.28.3",
-    "webpack-cli": "^3.2.0"
+    "webpack-cli": "^3.2.0",
+    "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-router": "^4.3.1",
