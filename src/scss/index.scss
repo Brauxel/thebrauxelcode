@@ -1,3 +1,6 @@
-body {
-	background: red;
-}
+@import 'config/_all';
+@import 'globals/_all';
+@import 'containers/_all';
+@import 'organisms/_all';
+@import 'molecules/_all';
+@import 'atoms/_all';

@@ -1,0 +1,21 @@
+/* Flex Helpers */
+.make-flex {
+	display: flex;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.align-center {
+	align-items: center;
+}
+
+/* Alignments */
+.text-center {
+	text-align: center;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}

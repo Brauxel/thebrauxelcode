@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;  
+}
+
+html {
+  font-size: 62.5%;
+
+  &.noscroll { 
+    overflow: hidden;
+  }  
+}
+
+body {
+	/*
+  font-family: $family-sans-serif;
+  font-weight: $weight-roman;
+  letter-spacing: 0.31px;
+  */
+  line-height: $line-height-default;  
+  font-size: $font-size-default;  
+  color: $text-color-default;
+
+  &.noscroll { 
+    overflow: hidden;
+  }  
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+   -webkit-transition: all 0.5s; /* Safari */
+  transition: all 0.5s; 
+}

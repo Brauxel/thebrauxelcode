@@ -1,0 +1,43 @@
+// Responsive Helpers
+$viewportIncrement: 1px;
+
+$xxsmall: 320px;
+$xsmall: 375px;
+$small: 480px;
+$medium: 768px;
+$large: 769px;
+$prelandscape: 1023px;
+$landscape: 1024px;
+$xlarge: 1200px;
+$xxlarge: 1440px;
+
+$postSmall: $small + $viewportIncrement;
+$preMedium: $medium - $viewportIncrement;
+$preLarge: $large - $viewportIncrement;
+
+$min: min-width;
+$max: max-width;
+
+@mixin at-query($constraint_, $viewport1_, $viewport2_: null) {
+  $constraint: $constraint_;
+  $viewport1: $viewport1_;
+  $viewport2: $viewport2_;
+  @if type-of($constraint_) == number {
+    $viewport1: $constraint_;
+    $viewport2: $viewport1_;
+    $constraint: null;
+  }
+  @if $constraint == $min {
+    @media screen and ($min: $viewport1) {
+      @content;
+    }
+  } @else if $constraint == $max {
+    @media screen and ($max: $viewport1) {
+      @content;
+    }
+  } @else {
+    @media screen and ($min: $viewport1) and ($max: $viewport2) {
+      @content;
+    }
+  }
+}

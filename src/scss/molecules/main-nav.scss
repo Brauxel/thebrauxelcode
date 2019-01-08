@@ -1,0 +1,33 @@
+.main-nav {
+	width: 100%;
+	text-align: center;
+	color: $main-navigation-color;
+	position: fixed;
+	z-index: 9;
+	top: 40px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow-y: scroll;
+	background-color: #fff;
+	display: none;
+
+	ul {
+		list-style-type: none;
+
+		li {
+			a {
+				display: block;
+				text-decoration: none;
+				line-height: 3;
+				padding: 0 1rem;
+				border-bottom: 1px solid #f2f2f2;
+
+				&:hover {
+					color: $main-navigation-hover-color;
+					border-color: $main-navigation-hover-color;
+				}
+			}
+		}
+	}
+}
