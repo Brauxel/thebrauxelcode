@@ -4,7 +4,7 @@ export default class extends React.Component {
     render() {
         return (
 	    	<div className="container text-center">
-	        	<div className="filters">
+	        	<div className="filters filters-desktop">
 	        		<span className="title">Filter:</span>
 	        		<a href="#" className="btn btn-primary">All</a>
 	        		<a href="#" className="btn btn-primary">Vue</a>
