@@ -21,13 +21,14 @@ $text-xxlarge: 2.4rem;
 $text-color-default: #bababa;
 $font-size-default: 1.4rem;
 $line-height-default: 1.5;
-//$font-family-default: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-default: "Roboto";
 $font-weight-default: $weight-light;
 
-// Heading 1
-//$heading-1-font-size: 2.6rem;
-//$heading-1-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-//$heading-1-font-weight: $weight-normal;
+// Headings
+$heading-font-family: "Raleway";
+$heading-color: #43474d;
+$heading-1-font-size: 4.8rem;
+$heading-2-font-size: 3.6rem;
 
 // Label Typography
 //$label-font-size: $text-default;
@@ -47,4 +48,8 @@ $font-weight-default: $weight-light;
 $main-navigation-color: #43474d;
 $main-navigation-hover-color: #e0005f;
 $main-navigation-font-family: "Raleway";
+
+// Buttons
+$buttons-primary-color: #e0005f;
+$buttons-primary-border-color: #454652;
 

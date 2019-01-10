@@ -12,8 +12,19 @@
 	background-color: #fff;
 	display: none;
 
+	@include at-query ($min, $prelandscape) {
+		position: relative;
+		width: fit-content;
+		top: 0;
+		display: block;
+	}
+
 	ul {
 		list-style-type: none;
+
+		@include at-query ($min, $prelandscape) {
+			display: flex;
+		}
 
 		li {
 			a {
@@ -26,6 +37,14 @@
 				&:hover {
 					color: $main-navigation-hover-color;
 					border-color: $main-navigation-hover-color;
+				}
+
+				@include at-query ($min, $prelandscape) {
+					line-height: 60px;
+					border-bottom: 5px solid transparent;
+					margin-left: 2.5rem;
+					margin-right: 2.5rem;
+					padding: 0;
 				}
 			}
 		}

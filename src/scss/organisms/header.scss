@@ -6,4 +6,10 @@
 	height: 40px;
 	border-bottom: #f2f2f2 5px solid;
 	padding: 0 2rem;
+
+	@include at-query ($min, $large) {
+		padding-left: 4rem;
+		padding-right: 4rem;
+		height: 70px;
+	}	
 }
