@@ -1,0 +1,83 @@
+<svg id="Content" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 13 13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e7e7e7;
+      }
+
+      .cls-2 {
+        fill: #e0005f;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 12px;
+      }
+
+      .cls-4, .cls-6, .cls-7 {
+        text-anchor: middle;
+        font-weight: 300;
+      }
+
+      .cls-4, .cls-7 {
+        font-family: Roboto;
+      }
+
+      .cls-4, .cls-6 {
+        text-transform: uppercase;
+      }
+
+      .cls-5 {
+        fill: #fbfbfb;
+      }
+
+      .cls-6 {
+        font-size: 18px;
+        font-family: Raleway;
+      }
+
+      .cls-6, .cls-8 {
+        fill: #43474d;
+      }
+
+      .cls-7 {
+        font-size: 14px;
+        fill: #bababa;
+      }
+    </style>
+  </defs>
+  <g id="Portfolio">
+    <g id="Bar">
+      <rect class="cls-1" x="-375" y="277" width="1170" height="5"/>
+      <path id="Rectangle_14_copy" data-name="Rectangle 14 copy" class="cls-2" d="M-269.152,262h91.3L-167,279.549-177.848,298h-91.3L-280,279.609Z"/>
+      <path id="Rectangle_14_copy_2" data-name="Rectangle 14 copy 2" class="cls-3" d="M-260,260h2l-12,19.5,12,20.5h-2l-12-20.433Z"/>
+      <path id="Rectangle_14_copy_3" data-name="Rectangle 14 copy 3" class="cls-3" d="M-187,260h-2l12,19.5L-189,300h2l12-20.433Z"/>
+      <text id="drag_it" data-name="drag it" class="cls-4" x="-225" y="285"><tspan x="-225">drag it</tspan></text>
+    </g>
+    <g id="_1" data-name="1">
+      <path id="Rectangle_13_copy" data-name="Rectangle 13 copy" class="cls-5" d="M-750-193h480v-92H-750v92Z"/>
+      <text id="blue_sea_and_boat" data-name="blue sea and boat" class="cls-6" x="-511" y="-242"><tspan x="-511">blue sea and boat</tspan></text>
+      <text id="sea_boat_photo" data-name="sea, boat, photo" class="cls-7" x="-511" y="-221"><tspan x="-511">sea, boat, photo</tspan></text>
+      <rect class="cls-8" x="-750" y="-610" width="480" height="325"/>
+    </g>
+    <g id="_2" data-name="2">
+      <path id="Rectangle_13_copy-2" data-name="Rectangle 13 copy" class="cls-5" d="M-270-193H210v-92H-270v92Z"/>
+      <text id="chair_illustration" data-name="chair illustration" class="cls-6" x="-31" y="-242"><tspan x="-31">chair illustration</tspan></text>
+      <text id="illustration_chair" data-name="illustration, chair" class="cls-7" x="-30" y="-221"><tspan x="-30">illustration, chair</tspan></text>
+      <rect class="cls-8" x="-270" y="-610" width="480" height="325"/>
+    </g>
+    <g id="_2_copy" data-name="2 copy">
+      <path id="Rectangle_13_copy-3" data-name="Rectangle 13 copy" class="cls-5" d="M-270,224H210V132H-270v92Z"/>
+      <g id="Button_copy_12" data-name="Button copy 12">
+        <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="13" height="13" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAxUlEQVQokZ3QPQ4BURSG4feKTDHRaTQmSrEGi7AElUKtUCoVCrVGp7YIC5mMRiWRiEIyPjlxMcllTHzFvc1zcn6QdJa0U7WYO9eBK5ABXWDC9yy861mnTNJYUvqVg7nUu8xJsk4H4Oac6wS6UATUgJY9R2ATqM8xd7SdcuAExJIGH+kjsXd5cbx2wMLsbby6L5gDM2AUsHdW3k2tKAIS4OKc25YcYuld9Pf1nuNVibmDjdcA+vZLGpZUvlxxpyaw/tEuAaI7HDWDTYptdB4AAAAASUVORK5CYII="/>
+      </g>
+    </g>
+  </g>
+</svg>

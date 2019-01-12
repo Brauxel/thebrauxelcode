@@ -1,14 +1,43 @@
 .grid-list {
 	flex-direction: column;
 
+	@include at-query ($min, $prelandscape) {
+		flex-direction: row;
+	}	
+
 	.item {
 		position: relative;
-		width: 100%;
+		flex-basis: 100%;
 		overflow: hidden;
+		margin-top: 3rem;
+		padding-bottom: 2rem;
+		transition: all 0.5s;
+
+		@include at-query ($min, $prelandscape) {
+			flex-basis: 25%;
+		}
+
+		.information {
+			position: relative;
+			z-index: 1;
+			transition: all 0.5s;
+
+			h5 {
+				transition: all 0.5s;
+			}
+		}		
 
 		&:hover {
 			.hover-state {
-				top: 3rem;
+				top: 0rem;
+			}
+
+			.information {
+				color: #fff;
+
+				h5 {
+					color: #fff;
+				}
 			}
 		}
 	}
@@ -22,8 +51,25 @@
 		transition: all 0.5s;
 	}
 
+	.hover-buttons {
+		height: 100%;
+
+		.btn-primary {
+			border-color: #fff;
+			color: #fff;
+			margin-left: 1.1rem;
+			margin-right: 1.1rem;
+			flex-basis: 50%;
+
+			&:hover {
+				background-color: #Fff;
+				color: #e0005f;
+			}
+		}
+	}
+
 	.main-image {
-		margin-top: 3rem;
+		max-width: 100%;
 	}
 
 	h5 {

@@ -16,6 +16,18 @@
 	text-align: center;
 }
 
+/* Typography */
 .uppercase {
 	text-transform: uppercase;
+}
+
+/* Design elements */
+.with-icon {
+	.icon {
+		margin-right: 5px;
+	}
+
+	.text {
+		margin-left: 5px;
+	}
 }
