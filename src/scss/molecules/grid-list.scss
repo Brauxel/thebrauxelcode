@@ -1,5 +1,7 @@
 .grid-list {
 	flex-direction: column;
+	flex-wrap: wrap;
+	display: flex;
 
 	@include at-query ($min, $prelandscape) {
 		flex-direction: row;
@@ -7,7 +9,6 @@
 
 	.item {
 		position: relative;
-		flex-basis: 100%;
 		overflow: hidden;
 		margin-top: 3rem;
 		padding-bottom: 2rem;

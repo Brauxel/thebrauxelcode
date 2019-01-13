@@ -2,9 +2,7 @@ import React from 'react';
 
 export default class extends React.Component {
 	getCategory() {
-		console.log("getCategory", this.props.text);
-
-		this.props.setCategory(this.props.text);
+		this.props.setCategory(this.props.text.replace(' ', '-').toLowerCase());
 	}
 
 	render() {

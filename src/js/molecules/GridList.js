@@ -7,9 +7,11 @@ export default class extends React.Component {
 	    	<div className="grid-list make-flex align-center text-center">
 	    		{
 	    			this.props.portfolioItems
-	    			.filter(({category}) => this.props.displayCategory === category || this.props.displayCategory === "all" )
+	    			.filter(
+	    				({category}) => (category.find(c => c.replace(' ', '-').toLowerCase() ==  this.props.displayCategory)) || this.props.displayCategory === "all" 
+	    			)
 	    			.map(({ category, name, text }) => (
-			    		<GridItem key={`portfolioItem-${name}`} name={name} text={text} />
+			    		<GridItem key={`portfolioItem-${name.replace(' ', '-').toLowerCase()}`} name={name} text={text} />
 	    			))
 	    		}
 	    	</div>			
