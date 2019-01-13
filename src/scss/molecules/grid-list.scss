@@ -3,7 +3,7 @@
 	flex-wrap: wrap;
 	display: flex;
 
-	@include at-query ($min, $prelandscape) {
+	@include at-query ($min, $medium) {
 		flex-direction: row;
 	}	
 
@@ -13,10 +13,20 @@
 		margin-top: 3rem;
 		padding-bottom: 2rem;
 		transition: all 0.5s;
+		width: 100%;
+
+		@include at-query ($min, $medium) {
+			flex-basis: 50%;
+			width: auto;
+		}		
 
 		@include at-query ($min, $prelandscape) {
-			flex-basis: 25%;
+			flex-basis: 33.3%;
 		}
+
+		@include at-query ($min, $xlarge) {
+			flex-basis: 25%;
+		}		
 
 		.information {
 			position: relative;
@@ -54,6 +64,12 @@
 
 	.hover-buttons {
 		height: 100%;
+		margin: 0 auto;
+		max-width: 320px;
+
+
+		@include at-query ($min, $prelandscape) {
+		}
 
 		.btn-primary {
 			border-color: #fff;
