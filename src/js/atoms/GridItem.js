@@ -19,8 +19,8 @@ export default class extends React.Component {
 				<img className="main-image" src={IAmGIA} />
 
 	            <div className="information">
-	                <h5>yellow tea and flowers</h5>
-	                <p>sea, boat, photo</p>
+	                <h5>{this.props.name}</h5>
+	                <p>{this.props.text}</p>
 	            </div>
 			</div>
 		)
