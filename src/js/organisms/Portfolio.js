@@ -13,7 +13,7 @@ export default class extends React.Component {
         this.setCategory = this.setCategory.bind(this);
     }
     setCategory(category) {
-        console.log("setCategory portfolio js");
+        console.log("setCategory portfolio js", category);
         this.setState({
           //displayCategory: category
         });

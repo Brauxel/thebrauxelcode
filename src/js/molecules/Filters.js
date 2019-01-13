@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../atoms/Button'
+import Button from '../atoms/FilterButton'
 
 export default class extends React.Component {
     render() {
@@ -7,13 +7,13 @@ export default class extends React.Component {
 	    	<div className="container text-center">
 	        	<div className="filters filters-desktop">
 	        		<span className="title">Filter:</span>
-	        		<Button text="All" onClick={this.props.setCategory} />
-	        		<Button text="Vue" onClick={this.props.setCategory} />
-	        		<Button text="React" onClick={this.props.setCategory} />
-	        		<Button text="Preact" onClick={this.props.setCategory} />
-	        		<Button text="Shopify" onClick={this.props.setCategory} />
-	        		<Button text="Wordpress" onClick={this.props.setCategory} />
-	        		<Button text="Laravel" onClick={this.props.setCategory} />
+	        		<Button text="All" setCategory={this.props.setCategory} />
+	        		<Button text="Vue" setCategory={this.props.setCategory} />
+	        		<Button text="React" setCategory={this.props.setCategory} />
+	        		<Button text="Preact" setCategory={this.props.setCategory} />
+	        		<Button text="Shopify" setCategory={this.props.setCategory} />
+	        		<Button text="Wordpress" setCategory={this.props.setCategory} />
+	        		<Button text="Laravel" setCategory={this.props.setCategory} />
 	        	</div>
 	        </div>
         )
