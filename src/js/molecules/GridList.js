@@ -10,8 +10,8 @@ export default class extends React.Component {
 	    			.filter(
 	    				({category}) => (category.find(c => c.replace(' ', '-').toLowerCase() ==  this.props.displayCategory)) || this.props.displayCategory === "all" 
 	    			)
-	    			.map(({ category, name, text }) => (
-			    		<GridItem key={`portfolioItem-${name.replace(' ', '-').toLowerCase()}`} name={name} text={text} />
+	    			.map(({ category, name, text, image }) => (
+			    		<GridItem key={`portfolioItem-${name.replace(' ', '-').toLowerCase()}`} name={name} text={text} image={image} />
 	    			))
 	    		}
 	    	</div>			

@@ -1,6 +1,8 @@
 import React from 'react';
 import IAmGIA from '../../assets/images/iamgia.png';
 import DetailsIcon from '../../assets/images/details-off.png';
+import DecjubaImage from '../../assets/images/portfolio/decjuba-1.jpg';
+import IamGIAImage from '../../assets/images/portfolio/iamgia-1.jpg';
 
 export default class extends React.Component {
 	render() {
@@ -16,7 +18,7 @@ export default class extends React.Component {
 	                </div>
 	            </div>
 
-				<img className="main-image" src={IAmGIA} />
+				<img className="main-image" src={require('./../../assets/images/portfolio/' + this.props.image)} />
 
 	            <div className="information">
 	                <h5>{this.props.name}</h5>

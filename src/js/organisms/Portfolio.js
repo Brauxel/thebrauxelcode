@@ -3,10 +3,10 @@ import Filters from '../molecules/Filters';
 import GridList from '../molecules/GridList';
 
 const PORTFOLIO = [
-  { category: ["Vue", "React"], name: "Football", text:"Lorem Ipsum" },
-  { category: ["Shopify", "React"], name: "iPod Touch", text:"Lorem Ipsum" },
-  { category: ["Shopify", "Preact"], name: "iPhone 5", text:"Lorem Ipsum" },
-  { category: ["Wordpress", "Laravel"], name: "Holiday", text:"Lorem Ipsum" }
+  { category: ["Vue", "Shopify", "Laravel", "Webpack"], name: "I.AM.GIA", text:"eCommerce", "image": "iamgia-1.jpg" },
+  { category: ["Shopify", "Laravel", "Webpack"], name: "Decjuba", text:"eCommerce", "image": "decjuba-1.jpg" },
+  { category: ["Vue", "Shopify", "Laravel", "Webpack"], name: "Zomp", text:"eCommerce", "image": "zomp-1.jpg" },
+  { category: ["WordPress", "React", "Webpack", "Gulp"], name: "Impromy", text:"Content Driven & Custom Apps", "image": "impromy-1.jpg" }
 ];
 
 export default class extends React.Component {

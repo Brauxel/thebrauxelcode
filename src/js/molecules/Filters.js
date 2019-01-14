@@ -13,6 +13,8 @@ export default class extends React.Component {
 	        		<Button text="Preact" setCategory={this.props.setCategory} />
 	        		<Button text="Shopify" setCategory={this.props.setCategory} />
 	        		<Button text="Wordpress" setCategory={this.props.setCategory} />
+	        		<Button text="Webpack" setCategory={this.props.setCategory} />
+	        		<Button text="Gulp" setCategory={this.props.setCategory} />	        		
 	        		<Button text="Laravel" setCategory={this.props.setCategory} />
 	        	</div>
 	        </div>
