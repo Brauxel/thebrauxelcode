@@ -1,9 +1,9 @@
 import React from 'react';
 
 import IAmGIA from '../../assets/images/iamgia.png';
-import DetailsIcon from '../../assets/images/details-off.png';
 import DecjubaImage from '../../assets/images/portfolio/decjuba-1.jpg';
 import IamGIAImage from '../../assets/images/portfolio/iamgia-1.jpg';
+import DetailsIcon from '../../assets/images/details-off.png';
 
 import Popup from '../organisms/Popup';
 

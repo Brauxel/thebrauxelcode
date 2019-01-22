@@ -1,8 +1,6 @@
 import React from 'react';
-import IAmGIA from '../../assets/images/iamgia.png';
 import DetailsIcon from '../../assets/images/details-off.png';
-import DecjubaImage from '../../assets/images/portfolio/decjuba-1.jpg';
-import IamGIAImage from '../../assets/images/portfolio/iamgia-1.jpg';
+import Slider from './Slider';
 import Popup from 'reactjs-popup';
 
 const popupStyles = {
@@ -32,13 +30,7 @@ export default class extends React.Component {
 						&times;
 					</a>
 
-					<img className="portfolio-image" src={this.props.content[0].image} />
-
-					<div className="inner-content">
-						<h3>{this.props.content[0].title}</h3>
-						<p>{this.props.content[0].description}</p>
-					</div>
-
+					<Slider content={this.props.content} />
 				</div>
 		  	)}
 		  </Popup>			

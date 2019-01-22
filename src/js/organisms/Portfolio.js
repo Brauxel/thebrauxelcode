@@ -2,6 +2,28 @@ import React from 'react';
 import Filters from '../molecules/Filters';
 import GridList from '../molecules/GridList';
 
+const information = [
+            {
+                title: 'Slide 1',
+                description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
+                button: 'Read More',
+                image: 'https://i.imgur.com/ZXBtVw7.jpg'
+            },
+            {
+                title: 'Slide 2',
+                description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
+                button: 'Read More',
+                image: 'https://i.imgur.com/ZXBtVw7.jpg'
+            },
+            {
+                title: 'Slide 3',
+                description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
+                button: 'Read More',
+                image: 'https://i.imgur.com/ZXBtVw7.jpg'
+            }            
+        ];     
+
+
 const PORTFOLIO = [
     { 
         name: "I.AM.GIA",
@@ -14,7 +36,19 @@ const PORTFOLIO = [
                 description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
                 button: 'Read More',
                 image: 'https://i.imgur.com/ZXBtVw7.jpg'
-            }
+            },
+            {
+                title: 'Slide 2',
+                description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
+                button: 'Read More',
+                image: 'https://i.imgur.com/ZXBtVw7.jpg'
+            },
+            {
+                title: 'Slide 3',
+                description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
+                button: 'Read More',
+                image: 'https://i.imgur.com/ZXBtVw7.jpg'
+            }            
         ]        
     },
     {
@@ -56,7 +90,13 @@ const PORTFOLIO = [
                 description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
                 button: 'Read More',
                 image: 'https://i.imgur.com/ZXBtVw7.jpg'
-            }
+            },
+            {
+                title: 'Slide 2',
+                description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
+                button: 'Read More',
+                image: 'https://i.imgur.com/ZXBtVw7.jpg'
+            }            
         ]                
     },
     {
