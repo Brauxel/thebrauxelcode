@@ -3,13 +3,104 @@ import Filters from '../molecules/Filters';
 import GridList from '../molecules/GridList';
 
 const PORTFOLIO = [
-  { category: ["Vue", "Shopify", "Laravel", "Webpack"], name: "I.AM.GIA", text:"eCommerce", "image": "iamgia-1.jpg" },
-  { category: ["Shopify", "Laravel", "Webpack"], name: "Decjuba", text:"eCommerce", "image": "decjuba-1.jpg" },
-  { category: ["Vue", "Shopify", "Laravel", "Webpack"], name: "Zomp", text:"eCommerce", "image": "zomp-1.jpg" },
-  { category: ["WordPress", "React", "Webpack", "Gulp"], name: "Impromy", text:"Content Driven & Custom Apps", "image": "impromy-1.jpg" },
-  { category: ["React", "Webpack"], name: "Vpass Express", text:"iPad Visitor Management System", "image": "vpass-1.jpg" },
-  { category: ["Shopify", "React", "Webpack"], name: "Thr1ve Me", text:"eCommerce", "image": "thrive-1.jpg" },
-  { category: ["Laravel", "Preact", "Webpack"], name: "Glue", text:"Linking Qantas Frequent Flyer miles", "image": "glue-1.jpg" }    
+    { 
+        name: "I.AM.GIA",
+        category: ["Vue", "Shopify", "Laravel", "Webpack"],
+        caption:"eCommerce",
+        mainImage: "iamgia-1.jpg",
+        information: [
+            {
+                title: 'Slide 1',
+                description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
+                button: 'Read More',
+                image: 'https://i.imgur.com/ZXBtVw7.jpg'
+            }
+        ]        
+    },
+    {
+        name: "Decjuba",
+        category: ["Shopify", "Laravel", "Webpack"],
+        caption:"eCommerce",
+        mainImage: "decjuba-1.jpg",
+        information: [
+            {
+                title: 'Slide 1',
+                description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
+                button: 'Read More',
+                image: 'https://i.imgur.com/ZXBtVw7.jpg'
+            }
+        ]                
+    },
+    { 
+        name: "Zomp",
+        category: ["Vue", "Shopify", "Laravel", "Webpack"],
+        caption:"eCommerce",
+        mainImage: "zomp-1.jpg",
+        information: [
+            {
+                title: 'Slide 1',
+                description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
+                button: 'Read More',
+                image: 'https://i.imgur.com/ZXBtVw7.jpg'
+            }
+        ]                
+    },
+    {
+        name: "Impromy",
+        category: ["WordPress", "React", "Webpack", "Gulp"],
+        caption:"Content Driven & Custom Apps",
+        mainImage: "impromy-1.jpg",
+        information: [
+            {
+                title: 'Slide 1',
+                description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
+                button: 'Read More',
+                image: 'https://i.imgur.com/ZXBtVw7.jpg'
+            }
+        ]                
+    },
+    {
+        name: "Vpass Express",
+        category: ["React", "Webpack"],
+        caption:"iPad Visitor Management System",
+        mainImage: "vpass-1.jpg",
+        information: [
+            {
+                title: 'Slide 1',
+                description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
+                button: 'Read More',
+                image: 'https://i.imgur.com/ZXBtVw7.jpg'
+            }
+        ]                
+    },
+    {
+        name: "Thr1ve Me", 
+        category: ["Shopify", "React", "Webpack"],
+        caption:"eCommerce",
+        mainImage: "thrive-1.jpg",
+        information: [
+            {
+                title: 'Slide 1',
+                description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
+                button: 'Read More',
+                image: 'https://i.imgur.com/ZXBtVw7.jpg'
+            }
+        ]                
+    },
+    {
+        name: "Glue",
+        category: ["Laravel", "Preact", "Webpack"],
+        caption:"Linking Qantas Frequent Flyer miles",
+        mainImage: "glue-1.jpg",
+        information: [
+            {
+                title: 'Slide 1',
+                description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
+                button: 'Read More',
+                image: 'https://i.imgur.com/ZXBtVw7.jpg'
+            }
+        ]                
+    }
 ];
 
 export default class extends React.Component {
